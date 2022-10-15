@@ -9,10 +9,10 @@ share:            false # Turn on twitter and facebook share buttons
 
 links:
   - name:         Posts
-    url:          /about
+    url:          /
     external:     false
   - name:         About me
-    url:          /
+    url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------
 
