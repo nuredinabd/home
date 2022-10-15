@@ -1,0 +1,323 @@
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 -r ./siteconf20221014-7640-oh7szp.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c
+make DESTDIR\= clean
+
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c
+make DESTDIR\=
+generating ffi_c-x64-mingw-ucrt.def
+Configuring libffi
+configure: WARNING: if you wanted to set the --build type, don't use --host.
+    If a cross compiler is detected then cross compile mode will be used
+make -C "/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt"
+make[1]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-Wall -fexceptions" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=make" "MAKEINFO=/bin/sh /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "mandir=/usr/local/share/man" "prefix=/usr/local" "AR=ar" "AS=as" "CC=x86_64-w64-mingw32-gcc" "CXX=g++" "LD=C:/Ruby31-x64/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "NM=nm" "RANLIB=ranlib" "DESTDIR=" all-recursive
+make[2]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+Making all in include
+make[3]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/include'
+Making all in testsuite
+make[3]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/testsuite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/testsuite'
+Making all in man
+make[3]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/man'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/man'
+make[3]: Entering directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+restore=: && backupdir=".am$$" && \
+am__cwd=`pwd` && CDPATH="${ZSH_VERSION+.}:" && cd /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi && \
+rm -rf $backupdir && mkdir $backupdir && \
+if (/bin/sh /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/missing --run makeinfo   --version) >/dev/null 2>&1; then \
+  for f in /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.info /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.info-[0-9] /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.info-[0-9][0-9] /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.i[0-9] /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.i[0-9][0-9]; do \
+    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+  done; \
+else :; fi && \
+cd "$am__cwd"; \
+if /bin/sh /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/missing --run makeinfo     -I doc -I /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc \
+ -o /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.info /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.texi; \
+then \
+  rc=0; \
+  CDPATH="${ZSH_VERSION+.}:" && cd /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi; \
+else \
+  rc=$?; \
+  CDPATH="${ZSH_VERSION+.}:" && cd /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi && \
+  $restore $backupdir/* `echo ".//c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/doc/libffi.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+libffi.texi:341: warning: missing name for @deftp
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/debug.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/debug.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/debug.c  -DDLL_EXPORT -DPIC -o src/.libs/debug.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/prep_cif.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/prep_cif.c  -DDLL_EXPORT -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/types.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/types.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/types.c  -DDLL_EXPORT -DPIC -o src/.libs/types.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/raw_api.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/java_raw_api.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/java_raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/java_raw_api.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/closures.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/closures.c  -DDLL_EXPORT -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -g  -Wall -fexceptions -c -o src/x86/ffi.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -g -Wall -fexceptions -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/ffi.c  -DDLL_EXPORT -DPIC -o src/x86/.libs/ffi.o
+/bin/sh ./libtool   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src  -c -o src/x86/win64.lo /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/win64.S
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -I. -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/include -Iinclude -I/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src -c /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/src/x86/win64.S  -DDLL_EXPORT -DPIC -o src/x86/.libs/win64.o
+/bin/sh ./libtool --tag=CC   --mode=link x86_64-w64-mingw32-gcc -g  -Wall -fexceptions -version-info `grep -v '^#' /c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi/libtool-version`    -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo     src/x86/ffi.lo src/x86/win64.lo                       
+libtool: link: warning: undefined symbols not allowed in x86_64-w64-mingw32 shared libraries
+libtool: link: ar cru .libs/libffi.a  src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win64.o
+C:\Ruby31-x64\msys64\ucrt64\bin\ar.exe: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libffi.a
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && cp -p "../libffi.la" "libffi.la" )
+/bin/sh ./libtool --tag=CC   --mode=link x86_64-w64-mingw32-gcc -g  -Wall -fexceptions   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo     src/x86/ffi.lo src/x86/win64.lo                       
+libtool: link: rm -fr  .libs/libffi_convenience.a(D)
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi.o src/x86/.libs/win64.o 
+C:\Ruby31-x64\msys64\ucrt64\bin\ar.exe: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && cp -p "../libffi_convenience.la" "libffi_convenience.la" )
+make[3]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+make[2]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+make[1]: Leaving directory '/c/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt'
+compiling AbstractMemory.c
+AbstractMemory.c: In function 'memory_get_array_of_string':
+AbstractMemory.c:451:13: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  451 |             rb_ary_push(retVal, (strptr == NULL ? Qnil : rb_tainted_str_new2(strptr)));
+      |             ^~~~~~~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from AbstractMemory.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c:461:13: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  461 |             rb_ary_push(retVal, rb_tainted_str_new2(strptr));
+      |             ^~~~~~~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from AbstractMemory.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+AbstractMemory.c: In function 'memory_put_bytes':
+AbstractMemory.c:581:9: warning: implicit declaration of function 'rb_safe_level' [-Wimplicit-function-declaration]
+  581 |     if (rb_safe_level() >= 1 && OBJ_TAINTED(str)) {
+      |         ^~~~~~~~~~~~~
+AbstractMemory.c:581:5: warning: 'RB_OBJ_TAINTED' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  581 |     if (rb_safe_level() >= 1 && OBJ_TAINTED(str)) {
+      |     ^~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/core/rstring.h:30,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/arithmetic/char.h:29,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/arithmetic.h:23,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:27,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from AbstractMemory.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/fl_type.h:118:30: note: declared here
+  118 | #define RB_OBJ_TAINTED       RB_OBJ_TAINTED
+      |                              ^~~~~~~~~~~~~~
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/fl_type.h:118:30: note: in definition of macro 'RB_OBJ_TAINTED'
+  118 | #define RB_OBJ_TAINTED       RB_OBJ_TAINTED
+      |                              ^~~~~~~~~~~~~~
+AbstractMemory.c: In function 'memory_op_get_strptr':
+AbstractMemory.c:716:5: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  716 |     return tmp != NULL ? rb_tainted_str_new2(tmp) : Qnil;
+      |     ^~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from AbstractMemory.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+Call.c: In function 'rbffi_SetupCallParams':
+Call.c:300:25: warning: implicit declaration of function 'rb_safe_level' [-Wimplicit-function-declaration]
+  300 |                     if (rb_safe_level() >= 1 && OBJ_TAINTED(argv[argidx])) {
+      |                         ^~~~~~~~~~~~~
+Call.c:300:21: warning: 'RB_OBJ_TAINTED' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  300 |                     if (rb_safe_level() >= 1 && OBJ_TAINTED(argv[argidx])) {
+      |                     ^~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/core/rstring.h:30,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/arithmetic/char.h:29,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/arithmetic.h:23,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:27,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Call.c:45:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/fl_type.h:118:30: note: declared here
+  118 | #define RB_OBJ_TAINTED       RB_OBJ_TAINTED
+      |                              ^~~~~~~~~~~~~~
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/fl_type.h:118:30: note: in definition of macro 'RB_OBJ_TAINTED'
+  118 | #define RB_OBJ_TAINTED       RB_OBJ_TAINTED
+      |                              ^~~~~~~~~~~~~~
+In file included from Call.h:36,
+                 from Function.h:48,
+                 from Call.c:57:
+Call.c: In function 'rbffi_do_blocking_call':
+Thread.h:78:39: warning: implicit declaration of function 'rb_thread_call_without_gvl' [-Wimplicit-function-declaration]
+   78 | # define rbffi_thread_blocking_region rb_thread_call_without_gvl
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread.h:78:39: note: in definition of macro 'rbffi_thread_blocking_region'
+   78 | # define rbffi_thread_blocking_region rb_thread_call_without_gvl
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Call.c: In function 'rbffi_CallFunction':
+Call.c:409:20: warning: passing argument 1 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  409 |         rb_rescue2(rbffi_do_blocking_call, (VALUE) bc, rbffi_save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+      |                    |
+      |                    VALUE (*)(void *) {aka long long unsigned int (*)(void *)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Call.c:45:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:26: note: expected 'VALUE (*)(VALUE)' {aka 'long long unsigned int (*)(long long unsigned int)'} but argument is of type 'VALUE (*)(void *)' {aka 'long long unsigned int (*)(void *)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                  ~~~~~~~~^~~~~~~~~~~~~~
+Call.c:409:56: warning: passing argument 3 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  409 |         rb_rescue2(rbffi_do_blocking_call, (VALUE) bc, rbffi_save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                        |
+      |                                                        VALUE (*)(void *, VALUE) {aka long long unsigned int (*)(void *, long long unsigned int)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Call.c:45:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:63: note: expected 'VALUE (*)(VALUE,  VALUE)' {aka 'long long unsigned int (*)(long long unsigned int,  long long unsigned int)'} but argument is of type 'VALUE (*)(void *, VALUE)' {aka 'long long unsigned int (*)(void *, long long unsigned int)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                                                       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+compiling ClosurePool.c
+compiling DataConverter.c
+compiling DynamicLibrary.c
+DynamicLibrary.c: In function 'library_dlerror':
+DynamicLibrary.c:167:5: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  167 |     return rb_tainted_str_new2(errmsg);
+      |     ^~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from DynamicLibrary.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Function.c
+Function.c: In function 'async_cb_event':
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl'; did you mean 'rb_thread_call_with_gvl'? [-Wimplicit-function-declaration]
+  563 |         rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         rb_thread_call_with_gvl
+Function.c: In function 'callback_with_gvl':
+Function.c:737:16: warning: passing argument 1 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  737 |     rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                VALUE (*)(void *) {aka long long unsigned int (*)(void *)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Function.c:49:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:26: note: expected 'VALUE (*)(VALUE)' {aka 'long long unsigned int (*)(long long unsigned int)'} but argument is of type 'VALUE (*)(void *)' {aka 'long long unsigned int (*)(void *)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                  ~~~~~~~~^~~~~~~~~~~~~~
+Function.c:737:47: warning: passing argument 3 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  737 |     rb_rescue2(invoke_callback, (VALUE) data, save_callback_exception, (VALUE) data, rb_eException, (VALUE) 0);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               VALUE (*)(void *, VALUE) {aka long long unsigned int (*)(void *, long long unsigned int)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Function.c:49:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:63: note: expected 'VALUE (*)(VALUE,  VALUE)' {aka 'long long unsigned int (*)(long long unsigned int,  long long unsigned int)'} but argument is of type 'VALUE (*)(void *, VALUE)' {aka 'long long unsigned int (*)(void *, long long unsigned int)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                                                       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+Function.c: In function 'invoke_callback':
+Function.c:808:17: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+  808 |                 param = (*(void **) parameters[i] != NULL) ? rb_tainted_str_new2(*(char **) parameters[i]) : Qnil;
+      |                 ^~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Function.c:49:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+LongDouble.c: In function 'rbffi_longdouble_new':
+LongDouble.c:19:59: warning: passing argument 3 of 'rb_rescue' from incompatible pointer type [-Wincompatible-pointer-types]
+   19 |         rb_cBigDecimal = rb_rescue(bigdecimal_load, Qnil, bigdecimal_failed, rb_cObject);
+      |                                                           ^~~~~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           VALUE (*)(VALUE) {aka long long unsigned int (*)(long long unsigned int)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from LongDouble.h:33,
+                 from LongDouble.c:1:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:364:62: note: expected 'VALUE (*)(VALUE,  VALUE)' {aka 'long long unsigned int (*)(long long unsigned int,  long long unsigned int)'} but argument is of type 'VALUE (*)(VALUE)' {aka 'long long unsigned int (*)(long long unsigned int)'}
+  364 | VALUE rb_rescue(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2);
+      |                                                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByReference.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+Types.c: In function 'rbffi_NativeValue_ToRuby':
+Types.c:83:13: warning: 'rbimpl_tainted_str_new_cstr' is deprecated: taintedness turned out to be a wrong idea. [-Wdeprecated-declarations]
+   83 |             return (*(void **) ptr != NULL) ? rb_tainted_str_new2(*(char **) ptr) : Qnil;
+      |             ^~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/intern.h:57,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:192,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Types.c:32:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/intern/string.h:1411:1: note: declared here
+ 1411 | rbimpl_tainted_str_new_cstr(const char *str)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling Variadic.c
+Variadic.c: In function 'variadic_invoke':
+Variadic.c:274:20: warning: passing argument 1 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  274 |         rb_rescue2(rbffi_do_blocking_call, (VALUE) bc, rbffi_save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+      |                    |
+      |                    VALUE (*)(void *) {aka long long unsigned int (*)(void *)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Variadic.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:26: note: expected 'VALUE (*)(VALUE)' {aka 'long long unsigned int (*)(long long unsigned int)'} but argument is of type 'VALUE (*)(void *)' {aka 'long long unsigned int (*)(void *)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                  ~~~~~~~~^~~~~~~~~~~~~~
+Variadic.c:274:56: warning: passing argument 3 of 'rb_rescue2' from incompatible pointer type [-Wincompatible-pointer-types]
+  274 |         rb_rescue2(rbffi_do_blocking_call, (VALUE) bc, rbffi_save_frame_exception, (VALUE) &frame, rb_eException, (VALUE) 0);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                        |
+      |                                                        VALUE (*)(void *, VALUE) {aka long long unsigned int (*)(void *, long long unsigned int)}
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:40,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from Variadic.c:43:
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/iterator.h:388:63: note: expected 'VALUE (*)(VALUE,  VALUE)' {aka 'long long unsigned int (*)(long long unsigned int,  long long unsigned int)'} but argument is of type 'VALUE (*)(void *, VALUE)' {aka 'long long unsigned int (*)(void *, long long unsigned int)'}
+  388 | VALUE rb_rescue2(VALUE (*b_proc)(VALUE), VALUE data1, VALUE (*r_proc)(VALUE, VALUE), VALUE data2, ...);
+      |                                                       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+compiling ffi.c
+linking shared-object ffi_c.so
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: AbstractMemory.o:AbstractMemory:(.text+0x14a3): undefined reference to `rb_safe_level'
+C:/Ruby31-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Call.o:Call.c:(.text+0x53e): undefined reference to `rb_safe_level'
+C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/.libs/libffi_convenience.a(win64.o):fake:(.text+0x69): relocation truncated to fit: R_X86_64_32S against symbol `ffi_closure_win64_inner' defined in .text section in C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/ffi-1.9.18/ext/ffi_c/libffi-x64-mingw-ucrt/.libs/libffi_convenience.a(ffi.o)
+collect2.exe: error: ld returned 1 exit status
+make: *** [Makefile:263: ffi_c.so] Error 1
+
+make failed, exit code 2

@@ -1,0 +1,13 @@
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/json-1.8.6/ext/json
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 -r ./siteconf20221014-16208-u88oua.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\= clean
+
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/json-1.8.6/ext/json
+make DESTDIR\= install

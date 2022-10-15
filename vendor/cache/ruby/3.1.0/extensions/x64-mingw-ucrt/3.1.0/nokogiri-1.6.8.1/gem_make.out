@@ -1,0 +1,39 @@
+current directory: C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/nokogiri-1.6.8.1/ext/nokogiri
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 -r ./siteconf20221014-7640-gkb2vp.rb extconf.rb
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=C:/Ruby31-x64/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--use-system-libraries
+<internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require': cannot load such file -- net/ftp (LoadError)
+	from <internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:4:in `<top (required)>'
+	from <internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/gems/mini_portile2-2.1.0/lib/mini_portile2.rb:2:in `<top (required)>'
+	from <internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:C:/Ruby31-x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from extconf.rb:469:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  C:/Users/nured/OneDrive/Documents/nuredinali.github.io/vendor/cache/ruby/3.1.0/extensions/x64-mingw-ucrt/3.1.0/nokogiri-1.6.8.1/mkmf.log
+
+extconf failed, exit code 1
